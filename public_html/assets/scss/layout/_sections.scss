@@ -1,0 +1,18 @@
+.section {
+    padding: 80px 0;
+
+}
+
+.about-section {
+    border-bottom: 1px solid $border-color;
+
+    .about-card {
+        padding: 60px;
+        border-right: 1px solid $border-color;
+
+        &:last-child {
+            border-right: none;
+        }
+
+    }
+}
